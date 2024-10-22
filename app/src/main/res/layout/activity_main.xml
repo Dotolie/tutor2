@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EC8A8A"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="#646563">
+
+        <TextView
+            android:layout_margin="4dp"
+            android:background="#FDF2F2"
+            android:text="차로"
+            android:textAlignment="center"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_margin="1dp"
+            android:background="#FDF2F2"
+            android:text="1"
+            android:textAlignment="center"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_margin="1dp"
+            android:background="#FDF2F2"
+            android:text="2"
+            android:textAlignment="center"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_margin="1dp"
+            android:background="#FDF2F2"
+            android:text="3"
+            android:textAlignment="center"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_width="51dp"
+            android:layout_margin="1dp"
+            android:background="#FDF2F2"
+            android:text="4"
+            android:textAlignment="center"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_margin="1dp"
+            android:background="#FDF2F2"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_margin="1dp"
+            android:background="#FDF2F2"
+            android:text="6"
+            android:textAlignment="center"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_margin="1dp"
+            android:background="#FDF2F2"
+            android:text="7"
+            android:textAlignment="center"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_margin="1dp"
+            android:background="#FDF2F2"
+            android:text="8"
+            android:textAlignment="center"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_margin="1dp"
+            android:background="#FDF2F2"
+            android:text="9"
+            android:textAlignment="center"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_margin="1dp"
+            android:background="#FDF2F2"
+            android:text="10"
+            android:textAlignment="center"
+            android:textSize="32sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="1dp"
+        android:background="#717371">
+
+        <TextView
+            android:layout_margin="3dp"
+            android:background="#FDF2F2"
+            android:text="1시현"
+            android:textSize="32sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            app:srcCompat="@drawable/img_1" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            app:srcCompat="@drawable/img_2" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            app:srcCompat="@drawable/img_3" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            app:srcCompat="@drawable/img_4" />
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            app:srcCompat="@drawable/img_4" />
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            app:srcCompat="@drawable/img_4" />
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            app:srcCompat="@drawable/img_4" />
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            app:srcCompat="@drawable/img_4" />
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            app:srcCompat="@drawable/img_4" />
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            app:srcCompat="@drawable/img_4" />
+        <Space
+            android:layout_margin="1dp"
+            android:layout_weight="10" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_margin="1dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_margin="1dp"
+        android:background="#606160">
+
+        <TextView
+            android:layout_margin="3dp"
+            android:background="#FDF2F2"
+            android:text="2시현"
+            android:textSize="32sp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            app:srcCompat="@drawable/img_3" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            app:srcCompat="@drawable/img_5" />
+
+        <Space
+            android:layout_margin="1dp"
+            android:layout_weight="100" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_column="5"
+            android:layout_margin="1dp" />
+
+    </TableRow>
+
+
+</TableLayout>
